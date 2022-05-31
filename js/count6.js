@@ -9,11 +9,11 @@ var x = setInterval(function () {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    document.getElementById("count").innerHTML = "<mark><font color=#000000 size=6><b>" +
-        days + "</font>일&nbsp;<font color=#000000 size=6>" +
-        hours + "</font>시간&nbsp;<font color=#000000 size=6>" +
-        minutes + "</font>분&nbsp;<font color=#000000 size=6>" +
-        seconds + "</font>초</b></mark>";
+    document.getElementById("count").innerHTML = "<font color=#ffffff size=6><b>" +
+        days + "</font>일&nbsp;<font color=#ffffff size=6>" +
+        hours + "</font>시간&nbsp;<font color=#ffffff size=6>" +
+        minutes + "</font>분&nbsp;<font color=#ffffff size=6>" +
+        seconds + "</font>초</b>";
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("count").innerHTML = "카운트 다운 종료"
