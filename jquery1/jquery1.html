@@ -2,8 +2,12 @@
 <html lang="">
 <head>
   <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/imgs/picture.png" />
+  <link rel="icon" type="image/png" href="/imgs/picture.png" sizes="192x192" />
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -36,24 +40,23 @@ $(document).ready(function() {
 });
 </script>
 </head>
-<body>
+<body style="background-color: rgba(137, 223, 7, 0.733);">
 <div style="text-align:center" align="center"> <br>
-	<h3>내가 좋아하는 꽃</h3><br>
+	<h2 class="text-light">내가 좋아하는 동물</h2><br>
 	<div id="slider" align="center">
-		<img class="scape_hidden" src="images/fig1.jpg" /><!-- 그림이 겹쳐져 있음 -->
-		<img class="scape_hidden" src="images/fig2.jpg" />
-		<img class="scape_hidden" src="images/fig3.jpg" />
-		<img class="scape_hidden" src="images/fig4.jpg" />
-		<img class="scape_hidden" src="images/fig5.jpg" />
-		<img class="scape_hidden" src="images/fig6.jpg" />
-		<img class="scape_hidden" src="images/fig7.jpg" />
-		<img class="scape_hidden" src="images/fig8.jpg" />
+		<img class="scape_hidden" src="images/ani1.jpg" style="width: 350px;"/><!-- 그림이 겹쳐져 있음 -->
+		<img class="scape_hidden" src="images/ani2.jpg" style="width: 350px;"/>
+		<img class="scape_hidden" src="images/ani3.jpg" style="width: 350px;"/>
+		<img class="scape_hidden" src="images/ani4.jpg" style="width: 350px;"/>
+		<img class="scape_hidden" src="images/ani5.jpg" style="width: 350px;"/>
+		<img class="scape_hidden" src="images/ani6.jpg" style="width: 350px;"/>
+		<img class="scape_hidden" src="images/ani7.jpg" style="width: 350px;"/>
+		<img class="scape_hidden" src="images/ani8.jpg" style="width: 350px;"/>
 	</div><br>
-	<button type="button" class="btn btn-danger btn-sm" button id="slideStart">Slide Show!</button>
-	<button type="button" class="btn btn-danger btn-sm" button id="slideStop">Stop Slide Show!</button>
-</div> 
-<br><br>
-<center><button type="button"  class="btn btn-outline-primary"><a href="../index.html">HOME</a></button></center>
+	<button type="button" class="btn btn-warning btn-sm" button id="slideStart">Slide Show!</button>
+	<button type="button" class="btn btn-warning btn-sm" button id="slideStop">Stop Slide Show!</button>
+</div><br>
+<center><button type="button"  class="btn btn-outline-warning"><a href="../index.html" class="text-warning">HOME</a></button></center>
 </body>
 </html>
 
