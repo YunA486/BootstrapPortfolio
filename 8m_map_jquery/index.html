@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <title>3317조윤아-Map Tracker</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/logo.png" />
+    <link rel="icon" type="image/png" href="imgs/logo.png" sizes="192x192"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyBf1DzGDRkXHBVpRC8oPDlQWHqiO1ApSqM">
+    </script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!--  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+    <script src="https://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+
+    <script
+        src="https://maps.google.com/maps/api/js?key=AIzaSyCIwcnmj5PcfmncGWA-OUCdLiZVQ1tDhZ4&callback=initMap&v=weekly">
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="myLoc.js"></script>
+    <link rel="stylesheet" href="myLoc.css">
+</head>
+
+<body>
+
+    <div data-role="header" style="background:rgb(223, 177, 245); color:rgb(255, 255, 255); text-align:center; text-valign:middle; height:70px; font-size:15pt; padding:20px;">
+        Map Tracker</div>
+    <form>
+        <input type="button" id="watch" value="Watch me" class="btn btn-danger">
+        <input type="button" id="clearWatch" value="Clear watch" class="btn btn-warning">
+        <input type="button" id="home" value="Go Home" class="btn btn-primary" onClick="location.href='../index.html'">
+    </form>
+
+    <div id="location">
+        여러분의 위치가 여기에 나타날 것입니다.
+    </div>
+
+    <div id="distance">
+        서울역과의 거리가 여기에 나타날 것입니다.
+    </div>
+
+    <div id="map">
+    </div>
+
+</body>
+
+</html>
