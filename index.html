@@ -30,8 +30,7 @@
   <script src="js/carlendar.js"></script>
   <style>
     .fakeimg {
-      height: 250px;
-      width: 100%;
+
       background: #cadffb;
       border-radius: 7px;
       padding: 10px 15px;
@@ -78,7 +77,7 @@
     </div>
   </nav>
 
-  <div class="container" style="margin-top:30px; margin-left: 90px;">
+  <div class="container" style="margin-top:30px;">
     <div class="row">
       <!--왼쪽내용-->
       <div class="col-sm-4">
@@ -96,57 +95,130 @@
         <h2>나의 작품</h2>
         <!-- <font size=3>나의 작품을 추가하여 보세요</font> -->
         <br>
-        <ul class="nav nav-pills flex-column" style="margin-left: -10px; margin-top: -11px;">
+        <ul class="nav nav-pills flex-column" style="margin-top: -11px;">
           <li class="nav-item">
             <a class="dropdown-item" href="calculator.html" data-toggle="popover" data-content="계산하는 프로그램"
-              style="width: 190px; color: white; background-color: #9cbeef;">계산기</a>
+              style="color: white; background-color: #9cbeef;">계산기</a>
           </li>
           <li class="nav-item">
-            <a class="dropdown-item" href="midwav.html" data-toggle="popover"
-              data-content="좋아하는 노래가 실행이 됩니다." style="width: 190px; margin-top: 6px; color: white; background-color: #9cbeef;">오디오
+            <a class="dropdown-item" href="midwav.html" data-toggle="popover" data-content="좋아하는 노래가 실행이 됩니다."
+              style="margin-top: 6px; color: white; background-color: #9cbeef;">오디오
               실행</a>
           </li>
           <li class="nav-item">
             <a class="dropdown-item" href="video.html" data-toggle="popover" data-content="비지오가 실행됩니다."
-              style="width: 190px; margin-top: 6px; color: white; background-color: #9cbeef;">비디오 실행</a>
+              style="margin-top: 6px; color: white; background-color: #9cbeef;">비디오 실행</a>
           </li>
           <li class="nav-item">
-            <a class="dropdown-item" href="jquery1/jquery1.html" data-toggle="popover"
-              data-content="좋아하는 사진으로 바꾸어보세요."
-              style="width: 190px; margin-top: 7px; color: white; background-color: #9cbeef;">사진 이동</a>
+            <a class="dropdown-item" href="jquery1/jquery1.html" data-toggle="popover" data-content="좋아하는 사진으로 바꾸어보세요."
+              style="margin-top: 7px; color: white; background-color: #9cbeef;">사진 이동</a>
           </li>
           <li class="nav-item">
-            <a class="dropdown-item" href="jquery2/sunny.html" data-toggle="popover"
-              data-content="jquery로 작성된 달력입니다." style="width: 190px; margin-top: 6px; color: white; background-color: #9cbeef;">달력</a>
+            <a class="dropdown-item" href="jquery2/sunny.html" data-toggle="popover" data-content="jquery로 작성된 달력입니다."
+              style="margin-top: 6px; color: white; background-color: #9cbeef;">달력</a>
           </li>
           <li class="nav-item">
             <a class="dropdown-item" href="8m_map_jquery/index.html" data-toggle="popover"
               data-content="jquery mobile를 이용한 위치추적기 입니다."
-              style="width: 190px; margin-top: 6px; color: white; background-color: #9cbeef;">위치추적기-boot</a>
+              style="margin-top: 6px; color: white; background-color: #9cbeef;">위치추적기-jquery</a>
           </li>
           <li class="nav-item">
-            <a class="dropdown-item" href="#" data-toggle="popover" data-content="가까운 지하철 안내 입니다."
-              style="width: 190px; margin-top: 7px; color: white; background-color: #9cbeef;">가까운 지하철 안내</a>
+            <a class="dropdown-item" href="8m_map_bootstrap/index.html" data-toggle="popover"
+              data-content="bootstrap을 이용한 위치추적기 입니다."
+              style="margin-top: 7px; color: white; background-color: #9cbeef;">위치추적기-boot</a>
           </li>
           <li class="nav-item">
-            <a class="dropdown-item" href="#" data-toggle="popover" data-content="가까운 주차장 안내 입니다."
-              style="width: 190px; margin-top: 6px; color: white; background-color: #9cbeef;">가까운 주차장 안내</a>
+            <a class="dropdown-item" href="playlist/playlist.html" data-toggle="popover"
+              data-content="언제나 새로운 노래를 추가할 수 있습니다." style="margin-top: 6px; color: white; background-color: #9cbeef;">웹
+              마을 튠즈</a>
           </li>
           <li class="nav-item">
-            <a class="dropdown-item" href="#" data-toggle="popover" data-content="실시간 기상지수 정보 안내 입니다."
-              style="width: 190px; margin-top: 6px; color: white; background-color: #9cbeef;">실시간 기상지수 정보
+            <a class="dropdown-item" href="phraseomatic_upgrade.html" data-toggle="popover"
+              data-content="유창한 구절 생성기입니다." style="margin-top: 6px; color: white; background-color: #9cbeef;">구절 생성기
               안내</a>
           </li>
           <li class="nav-item">
-            <a class="dropdown-item" href="#" data-toggle="popover" data-content="예제 프로그램을 추가하세요."
-              style="width: 190px; margin-top: 6px; color: white; background-color: #9cbeef;">Disabled</a>
+            <a class="dropdown-item" href="playlist.html" data-toggle="popover" data-content="나의 멋진 재생목록입니다."
+              style="margin-top: 6px; color: white; background-color: #9cbeef;">나의 재생목록</a>
           </li>
-
         </ul>
+        <br>
+        <div class="myContainer">
+          <h2>Anemone</h2>
+          <img id="youtubeImg"
+            src="https://s3.ap-northeast-2.amazonaws.com/om-public-static/media/images/products/2020/02/anemone-purple_5.jpg"
+            alt="anemone" width="100%" height="200px" style="border-radius: 10px; object-fit: cover" />
+        </div>
+
+        <div class="fakeimg">
+          <span style="text-align: center">
+            4월 2일 탄생화<br>
+            아네모네(Anemone, WindFlower)<br>
+            <br>
+            꽃말 : 기대, 기다림, 속절없는 사랑<br>
+          </span>
+        </div>
+        <br>
+        <div class="myContainer">
+          <h2>2002</h2>
+          <img id="youtubeImg" src="https://img.youtube.com/vi/ee2mcqcGL_c/0.jpg" alt="2002" width="100%"
+            height="200px" style="border-radius: 10px; object-fit: cover" />
+        </div>
+
+        <div class="fakeimg">
+          <span style="text-align: center">
+            Anne-Marie - 2002<br>
+            <br>
+            Provided to YouTube by Atlantic Records UK
+          </span>
+          <br><br>
+          <a href="https://youtu.be/ee2mcqcGL_c" target="_blank"> 영상 바로가기 </a>
+        </div>
+        <br>
+        <div class="myContainer">
+          <h2>SUNBA</h2>
+          <img id="youtubeImg" src="https://img.youtube.com/vi/xtuyiYoLOBw/0.jpg" alt="sunba" width="100%"
+            height="200px" style="border-radius: 10px; object-fit: cover" />
+        </div>
+
+        <div class="fakeimg">
+          <span style="text-align: center">
+            진짜로 열심히하는 마인크래프트<br>
+            <br>
+            안녕하세요 선바입니다.<br>
+            영상 시청해주셔서 감사합니다~!<br>
+            좋아요와 구독하기 잊지마세요~!<br>
+            트위치 : <a href="https://twitch.tv/sunbaking">sunbaking</a><br>
+            인스타그램 : <a href="https://www.instagram.com/sunbaakim/?hl=ko">@sunbaakim</a><br>
+            선바팬카페 : <a href="https://cafe.naver.com/sunbaaa">선바 팬카페</a><br>
+          </span>
+          <br>
+          <a href="https://youtu.be/xtuyiYoLOBw" target="_blank"> 영상 바로가기 </a>
+        </div>
+        <br>
+        <div class="myContainer">
+          <h2>금쪽 상담소</h2>
+          <img id="youtubeImg" src="https://img.youtube.com/vi/m6BHmR4UME0/0.jpg" alt="gold" width="100%" height="200px"
+            style="border-radius: 10px; object-fit: cover" />
+        </div>
+
+        <div class="fakeimg">
+          <span style="text-align: center">
+            주관적인 의미를 부여해서 가벼운 인사말도 깊게 받아들이는 사람들<br>
+            왜 나는 이런 일들로 매번 불편할까?<br>
+            <br>
+            대한민국 '어른이'들을 위한<br>
+            국민 멘토 오은영의 멘탈 케어 프로그램<br>
+            [오은영의 금쪽 상담소]<br>
+            매주 금요일 저녁 9시 30분 방송
+          </span>
+          <br><br>
+          <a href="https://youtu.be/m6BHmR4UME0" target="_blank"> 영상 바로가기 </a>
+        </div>
       </div>
 
       <!--가운데 메뉴-->
-      <div class="col-sm-4" style="margin-left: -41px;">
+      <div class="col-sm-4">
         <h2>Counter</h2>
         <font size=3>기준일 : 2022.06.01</font>
         <div class="cover">
@@ -155,125 +227,215 @@
           <h3 style="font-weight: bold; text-shadow:2px 1px 1px #000;">COMING SOON</mark></h3>
           <h5 id="count"></h5>
         </div>
-        <div class="fakeimg">
-          <p>하루의 시간 ..</p>
+        <div class="fakeimg" style="height: auto;">
           <p>
-
-            오늘 하루는 <br>
-            내 생애의 축소판. <br>
-            아침에 눈을 떠서 저녁에 잠잘 때까지 <br>
-            하루 종일 희망을 말하는 사람, <br>
-            그게 나였으면 좋겠습니다.<br>
-            (권대웅·시인)<br>
+            시간에 연습을 담아둔다.<br>
+            시간이 흐르면 그 연습은 노력인지 게으름인지 알 수 있다.<br>
+            <br>
+            시간에 사랑을 담아둔다.<br>
+            시간이 흐르면 그 사랑이 진심인지 흑심인지 알 수 있다.<br>
+            <br>
+            시간에 사람을 담아둔다.<br>
+            시간이 흐르면 그 사람이 믿음인지 불신인지 알 수 있다.<br>
+            <br>
+            시간은 무언가를 담으면<br>
+            거짓을 걸러내고 진실만 남기는 거름종이다.<br>
+            <br>
+            시간은 솔직하다.
+          </p>
         </div>
         <br>
+        <div class="myContainer">
+          <h2>Diamond</h2>
+          <img id="youtubeImg"
+            src="https://www.sciencetimes.co.kr/wp-content/uploads/2021/04/210404-diamond-316610_1280-480x318.jpg"
+            alt="diamond" width="100%" height="200px" style="border-radius: 10px; object-fit: cover" />
+        </div>
+
+        <div class="fakeimg">
+          <span style="text-align: center">
+            4월 탄생석<br>
+            다이아몬드(diamond)<br>
+            <br>
+            영원한 사랑과 고귀함 그리고 불변 등을 상징<br>
+            인연, 순수, 승리, 정의<br>
+          </span>
+        </div>
+        <br>
+        
+        <div class="myContainer">
+          <h2>Lost Stars</h2>
+          <img id="youtubeImg" src="https://img.youtube.com/vi/cL4uhaQ58Rk/0.jpg" alt="loststars" width="100%"
+            height="200px" style="border-radius: 10px; object-fit: cover" />
+        </div>
+
+        <div class="fakeimg">
+          <span style="text-align: center">
+            Adam Levine - Lost Stars (from Begin Again)<br>
+            <br>
+            Cover the track for a chance to win a copy of the soundtrack signed by Adam Levine:
+            <a href="http://smarturl.it/LostStarsCovers" target="_blank">LostStarsCovers</a>
+            <br><br>
+            Academy Award Nominee For Best Original Song
+            Avail on iTunes:
+            <a href="http://smarturl.it/BeginAgainMusic" target="_blank">BeginAgainMusic</a>
+          </span>
+          <br><br>
+          <a href="https://youtu.be/cL4uhaQ58Rk" target="_blank"> 영상 바로가기 </a>
+        </div>
+        <br>
+        <div class="myContainer">
+          <h2>SUNBA</h2>
+          <img id="youtubeImg" src="https://img.youtube.com/vi/jv11MF5opDA/0.jpg" alt="sunba" width="100%"
+            height="200px" style="border-radius: 10px; object-fit: cover" />
+        </div>
+        <br>
+        <div class="fakeimg">
+          <span style="text-align: center">
+            슈 그만 착취를 해!<br>
+            <br>
+            원본영상 : <a href="https://www.twitch.tv/videos/242662292">원본영상</a><br>
+            <br>
+            안녕하세요 선바입니다.<br>
+            영상 시청해주셔서 감사합니다~!<br>
+            좋아요와 구독하기 잊지마세요~!<br>
+            트위치 : <a href="https://twitch.tv/sunbaking">sunbaking</a><br>
+            인스타그램 : <a href="https://www.instagram.com/sunbaakim/?hl=ko">@sunbaakim</a><br>
+            선바팬카페 : <a href="https://cafe.naver.com/sunbaaa">선바 팬카페</a><br>
+            선바굿즈:<a href="http://wootso.cafe24.com">웃소카페</a><br>
+            페이스북 김선우: <a href="http://facebook.com/sunbakim">sunbakim</a><br>
+          </span>
+          <br>
+          <a href="https://youtu.be/jv11MF5opDA" target="_blank"> 영상 바로가기 </a>
+        </div>
+        <br>
+        <div class="myContainer">
+          <h2>금쪽 상담소</h2>
+          <img id="youtubeImg" src="https://img.youtube.com/vi/SUNfbfpusZ8/0.jpg" alt="gold" width="100%" height="200px"
+            style="border-radius: 10px; object-fit: cover" />
+        </div>
+
+        <div class="fakeimg">
+          <span style="text-align: center">
+            상대의 자극에 상처받고 휘둘리는 신소율!<br>
+            습자지 같은 마음 감정이 불안한데.. <br>
+            불안은 어디서 온 걸까?<br>
+            <br>
+            대한민국 '어른이'들을 위한<br>
+            국민 멘토 오은영의 멘탈 케어 프로그램<br>
+            [오은영의 금쪽 상담소]<br>
+            매주 금요일 저녁 9시 30분 방송
+          </span>
+          <br><br>
+          <a href="https://youtu.be/SUNfbfpusZ8" target="_blank"> 영상 바로가기 </a>
+        </div>
       </div>
 
       <!--오른쪽 메뉴-->
-      <div class="col-sm-4" style="margin-left: 20px; margin-top: 3px;">
+      <div class="col-sm-4" style="margin-top: 3px;">
         <h2>My Calendar</h2>
         <font size=3>오늘의 날짜입니다</font>
         <br><br>
-        <div id="datepicker" align="center" style="margin-left: -20px;"></div>
+        <div id="datepicker" align="center"></div>
+
         <div class="fakeimg">
-          달력
-
-          달력 속에는
-          숫자들이 가지런히
-          놓여 있어요.<br>
-
-          하루하루 지나 한 달이 되어
-          한 장을 넘기다 보면
-          계절에 맞춰
-          예쁜 그림도 바뀌지요. <br>
-
-          새 달력이 나오면
-          먼저 기념일에다
-          동그라미를 넣고
-          공휴일도 세어요.
-
-          해마다
-          반복되는
-          숫자들의 배열
-          우리네 인생이에요.<br>
-          (이제민·시인)
+          <p>
+            꿈을 날짜와 함께 적어 놓으면 그것은 목표가 되고,
+            목표를 잘게 나누면 그것은 계획이 되며,
+            그 계획을 실행에 옮기면 꿈은 실현되는 것이다.<br>
+            <br>
+            A DREAM written down with a data becomes a GOAL.
+            A GOAL broken down into steps becomes a PLAN.
+            A PLAN backed by ACTION makes your dreams come true.<br><br>
+            - 그레그 S 레이드(Greg S.Reid)
+          </p>
         </div>
-        <p>Some text..</p>
-      </div>
-      <div class="col-sm-4">
-        <h2>My Calendar</h2>
-        <font size=3>오늘의 날짜입니다</font>
-        <div id="datepicker" align="center"></div>
-        <div class="fakeimg"> 달력
-
-          달력 속에는
-          숫자들이 가지런히
-          놓여 있어요.<br>
-
-          하루하루 지나 한 달이 되어
-          한 장을 넘기다 보면
-          계절에 맞춰
-          예쁜 그림도 바뀌지요. <br>
-
-          새 달력이 나오면
-          먼저 기념일에다
-          동그라미를 넣고
-          공휴일도 세어요.
-
-          해마다
-          반복되는
-          숫자들의 배열
-          우리네 인생이에요.<br>
-          (이제민·시인)
+        <br>
+        <div class="myContainer">
+          <h2>Sorbus commixta</h2>
+          <img id="youtubeImg" src="https://www.hstree.co.kr/prod_img/sub_img/%EB%A7%88%EA%B0%80%EB%AA%A95.jpg"
+            alt="Sorbus commixta" width="100%" height="200px" style="border-radius: 10px; object-fit: cover" />
         </div>
-      </div>
-      <div class="col-sm-4">
-        <h2>My Calendar</h2>
-        <font size=3>오늘의 날짜입니다</font>
-        <div id="datepicker" align="center"></div>
-        <div class="fakeimg"> 달력
 
-          달력 속에는
-          숫자들이 가지런히
-          놓여 있어요.<br>
-
-          하루하루 지나 한 달이 되어
-          한 장을 넘기다 보면
-          계절에 맞춰
-          예쁜 그림도 바뀌지요. <br>
-
-          새 달력이 나오면
-          먼저 기념일에다
-          동그라미를 넣고
-          공휴일도 세어요.
-
-          해마다
-          반복되는
-          숫자들의 배열
-          우리네 인생이에요.<br>
-          (이제민·시인)
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <h2>My Calendar</h2>
-        <font size=3>오늘의 날짜입니다</font>
-        <div id="datepicker" align="center"></div>
         <div class="fakeimg">
-          <p>눈사람 자살사건 / 최승호</p>
-
-          그날 눈사람은 텅 빈 욕조 위에 누워있었다<br>
-          그는 뜨거운 물을 틀기 전에 더 살아야 하는지 말아야 하는지 곰곰히 생각해 보았다<br>
-          더 살아야 할 이유가 없다는 것이 사는 이유 또한 될 수 없었다<br>
-          죽어야 할 이유도 없었고 더 살아야 할 이유도 없었다<br>
-          아무런 이유 없이 텅 빈 욕조 속에 누워 있을 때 뜨거운 물과 찬 물 중에서 어떤 물을 틀어야 하는 것일까<br>
-          눈사람은 그 결과는 같은 것이라고 생각했다<br>
-          뜨거운 물에는 빨리 녹고 찬 물에는 좀 천천히 녹겠지만<br>
-          녹아 사라진다는 점에서는 다를 게 없었다<br>
-          나는 따뜻한 물에 녹고 싶다 오랫동안<br>
-          너무 춥게만 살지 않았는가<br>
-          눈사람은 온수를 틀고 자신의 몸이 점점 녹아 물이 되는 것을 지켜보다 잠이 들었다<br>
-          욕조에서는 무럭무럭 김이 피어올랐다<br>
+          <span style="text-align: center">
+            4월 2일 탄생목<br>
+            마가목(Sorbus commixta, Japanese rowan)<br>
+            <br>
+            장미과의 갈잎큰키나무<br>
+            의미 : 민감<br>
+          </span>
         </div>
+        <br>
+        <div class="myContainer">
+          <h2>Thinking Out Loud</h2>
+          <img id="youtubeImg" src="https://img.youtube.com/vi/lp-EO5I60KA/0.jpg" alt="Thinking Out Loud" width="100%"
+            height="200px" style="border-radius: 10px; object-fit: cover" />
+        </div>
+
+        <div class="fakeimg">
+          <span style="text-align: center">
+            Ed Sheeran - Thinking Out Loud<br>
+            <br>
+            The official music video for <br>
+            Ed Sheeran - Thinking Out Loud<br>
+            The new album "=" is out now - listen here: <br>
+            <a href="https://es.lnk.to/equals">https://es.lnk.to/equals</a>
+            <br><br>
+            Ed learnt to dance! <br>
+            Featuring and taught by <br>
+            @dance10Brittany and @dance10Paul
+            <br><br>
+            Go behind the scenes of the video: <br>
+            <a href="http://bit.ly/ThinkingOutLoudBTS">http://bit.ly/ThinkingOutLoudBTS</a>
+          </span>
+          <br><br>
+          <a href="https://youtu.be/lp-EO5I60KA" target="_blank"> 영상 바로가기 </a>
+        </div>
+        <br>
+        <div class="myContainer">
+          <h2>SUNBA</h2>
+          <img id="youtubeImg" src="https://img.youtube.com/vi/tBce8cr0gTI/0.jpg" alt="sunba" width="100%"
+            height="200px" style="border-radius: 10px; object-fit: cover" />
+        </div>
+
+        <div class="fakeimg">
+          <span style="text-align: center">
+            5월 클립모음집 입니다.<br>
+            <br>
+            안녕하세요 선바입니다. 영상 시청해주셔서 감사합니다~!<br>
+            좋아요와 구독하기 잊지마세요~!<br>
+            트위치 : <a href="https://twitch.tv/sunbaking">sunbaking</a><br>
+            인스타그램 : <a href="https://www.instagram.com/sunbaakim/?hl=ko">@sunbaakim</a><br>
+            선바팬카페 : <a href="https://cafe.naver.com/sunbaaa">선바 팬카페</a><br>
+          </span>
+          <br>
+          <a href="https://youtu.be/tBce8cr0gTI" target="_blank"> 영상 바로가기 </a>
+        </div>
+        <br>
+        <div class="myContainer">
+          <h2>금쪽 상담소</h2>
+          <img id="youtubeImg" src="https://img.youtube.com/vi/K_f_yEF44ls/0.jpg" alt="gold" width="100%" height="200px"
+            style="border-radius: 10px; object-fit: cover" />
+        </div>
+
+        <div class="fakeimg">
+          <span style="text-align: center">
+            10년째 계속되는 번아웃으로 <br>
+            금쪽 상담소를 찾아온 밴드 자우림의 김윤아<br>
+            계속되는 번아웃으로 각종 신경통증과 소화 장애를 앓게 되었다는데...<br>
+            김윤아가 이렇게 주변 환경에 취약해진 <br>
+            이유는 무엇일까? <br>
+            <br>
+            대한민국 '어른이'들을 위한<br>
+            국민 멘토 오은영의 멘탈 케어 프로그램<br>
+            [오은영의 금쪽 상담소]<br>
+            매주 금요일 저녁 9시 30분 방송
+          </span>
+          <br><br>
+          <a href="https://youtu.be/SUNfbfpusZ8" target="_blank"> 영상 바로가기 </a>
+        </div>
+        <br><br>
       </div>
     </div>
   </div>

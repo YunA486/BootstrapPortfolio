@@ -1,0 +1,35 @@
+<!doctype html>
+
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/imgs/songlist.png" />
+    <link rel="icon" type="image/png" href="/imgs/songlist.png" sizes="192x192" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>웹마을 튠즈 - 곡추가, 곡 모두 삭제, 곡 선택 삭제</title>
+
+    <script src="playlist.js"></script>
+    <script src="playlist_store.js"></script>
+    <link rel="stylesheet" href="playlist.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: rgb(205, 205, 205);">
+    <form style="margin: 10px;">
+        <input type="text" id="songTextInput" size="40" placeholder="노래 제목">
+        <input type="button" id="addButton" value="곡 추가" class="btn btn-warning">
+
+        <!-- 추가 -->
+        <input type="button" id="deleteButton" value="곡 선택 삭제" class="btn btn-success">
+
+        <input type="button" id="deleteAllButton" value="곡 모두 삭제" class="btn btn-primary">
+
+        <input type="button" id="home" value="Go Home" class="btn btn-mute" onClick="location.href='../index.html'">
+    </form>
+
+    <ul id="playlist">
+
+    </ul>
+</body>
+
+</html>
